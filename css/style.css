@@ -1,0 +1,97 @@
+*{
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* google fonts in here  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.form-info input::placeholder{
+    color: #828282;  
+}
+
+.primary-btn{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    background: #F2994A;
+    padding: 15px 45px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.container h3{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+.contact-info h5{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.form-info h5, .shopping-address h5{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 15px;
+
+}
+
+.form-info input, .shopping-address input{
+    width: 465px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    margin-bottom: 27px;
+    padding-left: 18px;
+}
+
+
+.country-or-postal{
+    display: flex;
+    gap: 15px;
+}
+.country-or-postal div{
+    width: 217px;
+    height: 56px;
+}
+.country-or-postal div input{
+    width: 100%;
+}
+
+.check-box div{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
